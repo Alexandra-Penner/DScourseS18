@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Problem set 4}
+\author{Alexandra Penner}
+\date{January 2018}
+
+\begin{document}
+
+\maketitle
+
+\section{}
+I would be interested in scraping political data, such as election results from states.
+
+\section{}
+its a list.  fromJSON outputs a list that has to be converted to a dataframe by the user by wrapping the call in as.data.frame()
+
+\section{}
+df is of class SparkR, and df1 is of class data.frame
+
+\section{}
+it is an error because spark's select does not apply to data frames
+
+
+\section{}
+filter fails as well.
+
+
+\end{document}
