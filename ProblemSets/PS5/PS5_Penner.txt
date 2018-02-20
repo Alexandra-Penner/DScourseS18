@@ -1,0 +1,8 @@
+Problem set 4
+Alexandra Penner
+January 2018
+1
+My scraped data is from ESPN. I pulled the scores of OU's basketball games
+this season. My API data is tweets about OU basketball. with these two pieces
+of data I can analyze the relationship between OU twitter activity and the
+basketball teams performance.
