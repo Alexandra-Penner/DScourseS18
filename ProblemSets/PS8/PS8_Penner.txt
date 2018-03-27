@@ -1,0 +1,79 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{PS8}
+\author{Alexandra Penner}
+\date{March 2018}
+
+\begin{document}
+
+\maketitle
+
+\section{}
+Closed form OLS produces betas of (1.5002896, -0.9978091, -0.2493249,  0.7485952,  3.5008834, -1.9997182,  0.5005669,  0.9993700,  1.2514150,  1.9996923)
+
+Gradient descent found betas of (1.5, -1 ,-0.25, 0.75, 3.5, -2, 0.5, 1, 1.25, 2)
+
+L-BFGS returned optimal values of (1.50029 -0.9978091 -0.2493249 0.7485952 3.500883 -1.999718 0.5005669 0.99937 1.251415 1.999692)
+
+Neldermead returns (1.500996 -0.9970235 -0.2496825 0.7493175 3.50024 -1.999328 0.5030257 0.9982636 1.251686 2.001447)
+Which is a little different, but I'm not sure if that is just stochastic variation or a bias in the algorithm.
+
+MLE returned betas of (1.500996 -0.9970235 -0.2496825 0.7493175 3.50024 -1.999328 0.5030257 0.9982636 1.251686 
+2.001447)
+
+
+\begin{table}[!htbp] \centering 
+  \caption{} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-2} 
+\\[-1.8ex] & Y \\ 
+\hline \\[-1.8ex] 
+ X1 & 1.500$^{***}$ \\ 
+  & (0.001) \\ 
+  & \\ 
+ X2 & $-$0.998$^{***}$ \\ 
+  & (0.001) \\ 
+  & \\ 
+ X3 & $-$0.249$^{***}$ \\ 
+  & (0.001) \\ 
+  & \\ 
+ X4 & 0.749$^{***}$ \\ 
+  & (0.001) \\ 
+  & \\ 
+ X5 & 3.501$^{***}$ \\ 
+  & (0.001) \\ 
+  & \\ 
+ X6 & $-$2.000$^{***}$ \\ 
+  & (0.001) \\ 
+  & \\ 
+ X7 & 0.501$^{***}$ \\ 
+  & (0.001) \\ 
+  & \\ 
+ X8 & 0.999$^{***}$ \\ 
+  & (0.001) \\ 
+  & \\ 
+ X9 & 1.251$^{***}$ \\ 
+  & (0.001) \\ 
+  & \\ 
+ X10 & 2.000$^{***}$ \\ 
+  & (0.001) \\ 
+  & \\ 
+\hline \\[-1.8ex] 
+Observations & 100,000 \\ 
+R$^{2}$ & 0.998 \\ 
+Adjusted R$^{2}$ & 0.998 \\ 
+Residual Std. Error & 0.250 (df = 99990) \\ 
+F Statistic & 4,322,727.000$^{***}$ (df = 10; 99990) \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+
+
+\end{document}
