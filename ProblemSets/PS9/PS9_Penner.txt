@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{PS9}
+\author{Alli Penner}
+\date{April 2018}
+
+\begin{document}
+
+\maketitle
+
+\section{data}
+the training data is 404 observations of 450 features
+
+\section{lasso}
+The in sample RMSE is 0.178, out of sample is RMSE 0.1899799, The optimal value of lambda is 0.00457.
+
+\section{ridge}
+The in sample RMSE is 0.164, out of sample is RMSE 0.1872715, The optimal value of lambda is 0.3.
+
+\section{elastic net}
+The in sample RMSE is 0.163, out of sample is RMSE 0.1844383, The optimal value of lambda is 0.132.
+
+\section{}
+Traditional OLS is useless for this data because there are so many columns.  The curse of dimensionality prevents us from making a viable model with all features.  The error in the out of sample is only a little higher that in sample.
+
+\end{document}
